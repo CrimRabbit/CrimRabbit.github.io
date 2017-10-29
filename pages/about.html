@@ -5,10 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="blurbs" />
+        <meta name="author" content="Joe Ng" />
+        <meta name="description" content="Hello! My name is Joe Ng, living in Singapore. Currently studying Information Systems Technology and Design, with focus tracks in Artificial Intelligence and Security." />
 
 
-    <title>blurbs - Crimellian Rabbit</title>
+    <title>About - Crimellian Rabbit</title>
 
         <link rel="stylesheet" href="../theme/css/bootstrap.min.css" type="text/css" />
 
@@ -108,8 +109,9 @@
                         Pages
                     </a>
                 </li>
-                <li class="panel anti-panel"><ul id="collapse-pages" class="sidebar_submenu collapse ">
-                    <li>
+                <li class="panel anti-panel"><ul id="collapse-pages" class="sidebar_submenu collapse         in
+">
+                    <li class="active">
                         <a href="../pages/about.html">
                             <i class="fa fa-file-text padding-small"></i>
                             About
@@ -149,43 +151,13 @@
             <div class="container-fluid">
 <div class="row">
     <div class="col-lg-9">
-        <header class="page-header">
-            <h1>Articles featuring blurbs</h1>
-        </header>
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-9">
-            <article>
-                <h4>
-                    <time datetime="2017-05-03T00:00:00+08:00"> Wed 03 May 2017</time>
-                    <a href="../a-statue.html">A statue</a>
-                </h4>
-            </article>
-            <article>
-                <h4>
-                    <time datetime="2017-03-16T00:00:00+08:00"> Thu 16 March 2017</time>
-                    <a href="../the-fog-of-the-morning.html">The fog of the morning</a>
-                </h4>
-            </article>
-            <article>
-                <h4>
-                    <time datetime="2017-03-12T00:00:00+08:00"> Sun 12 March 2017</time>
-                    <a href="../rhyming-name.html">Rhyming name</a>
-                </h4>
-            </article>
-            <article>
-                <h4>
-                    <time datetime="2017-03-11T00:00:00+08:00"> Sat 11 March 2017</time>
-                    <a href="../wp-sugar-is-an-expensive-and-controlled-drug-to-most-aliens-so-aliens-looking-for-a-sugar-high-have-been-coming-on-halloween-to-get-free-candy-for-decades.html">[WP] Sugar is an expensive and controlled drug to most aliens. So aliens looking for a sugar high have been coming on Halloween to get free candy for decades.</a>
-                </h4>
-            </article>
-            <article>
-                <h4>
-                    <time datetime="2017-03-10T09:13:41+08:00"> Fri 10 March 2017</time>
-                    <a href="../a-box-of-cards.html">A box of cards</a>
-                </h4>
-            </article>
+        <section id="content" class="body">
+            <h1 class="page-header">About</h1>
+            <div class="entry-content">
+                <p>Hello! My name is Joe Ng, living in Singapore. </p>
+<p>Currently studying Information Systems Technology and Design, with focus tracks in Artificial Intelligence and Security.</p>
+            </div>
+        </section>
     </div>
 </div>
 <footer>
@@ -209,24 +181,5 @@
     <script src="../theme/js/bootstrap.min.js"></script>
     <!-- twitchy Script -->
     <script src="../theme/js/pelican_twitchy.min.js"></script>
-<script>
-    function FadeInOnScroll(ObjectList){
-        ObjectList.each(function(i) {
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-            if( bottom_of_window > bottom_of_object ){
-                $(this).fadeTo(750,1);
-            }
-        });
-    }
-
-    articles = $("article").fadeTo(0, 0.05);
-    FadeInOnScroll(articles)
-
-    $(window).scroll(function() {
-        FadeInOnScroll(articles)
-    });
-</script>
 </body>
 </html>
